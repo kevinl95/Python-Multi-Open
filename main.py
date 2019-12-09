@@ -1,9 +1,12 @@
 import os
 import tkinter
 from tkinter import filedialog, Listbox, messagebox
+from tkinter import Tk
+from tkinter import Variable
 
 
 def add_files(root, box):
+    # type: (Tk, Listbox) -> None
     files = filedialog.askopenfilenames(parent=root, title='Choose your files')
     # Check that the user didn't cancel this action
     if len(files) > 0:
@@ -15,6 +18,7 @@ def add_files(root, box):
 
 
 def open_files(files):
+    # type: (Variable) -> None
     # Retrieve the list of files from our variable
     file_list = files.get()
     # Loop through and open these files in their default Windows program
@@ -27,6 +31,7 @@ def open_files(files):
 
 
 def main():
+    # type: () -> None
     root = tkinter.Tk()
     root.title('Multi-Open')
     root.iconbitmap('icon.ico')

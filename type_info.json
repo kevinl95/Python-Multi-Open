@@ -1,0 +1,482 @@
+[
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\_collections_abc.py",
+        "line": 664,
+        "func_name": "Mapping.__contains__",
+        "type_comments": [
+            "(str) -> bool"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\genericpath.py",
+        "line": 27,
+        "func_name": "isfile",
+        "type_comments": [
+            "(str) -> bool"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\genericpath.py",
+        "line": 117,
+        "func_name": "_splitext",
+        "type_comments": [
+            "(str, str, str, str) -> Tuple[str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 34,
+        "func_name": "_get_bothseps",
+        "type_comments": [
+            "(str) -> str"
+        ],
+        "samples": 2
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 75,
+        "func_name": "join",
+        "type_comments": [
+            "(str, *str) -> str"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 122,
+        "func_name": "splitdrive",
+        "type_comments": [
+            "(str) -> Tuple[str, str]"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 200,
+        "func_name": "split",
+        "type_comments": [
+            "(str) -> Tuple[str, str]"
+        ],
+        "samples": 2
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 223,
+        "func_name": "splitext",
+        "type_comments": [
+            "(str) -> Tuple[str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\ntpath.py",
+        "line": 234,
+        "func_name": "basename",
+        "type_comments": [
+            "(str) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\os.py",
+        "line": 664,
+        "func_name": "_Environ.__getitem__",
+        "type_comments": [
+            "(str) -> pyannotate_runtime.collect_types.NoReturnType"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\os.py",
+        "line": 728,
+        "func_name": "check_str",
+        "type_comments": [
+            "(str) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\os.py",
+        "line": 734,
+        "func_name": "encodekey",
+        "type_comments": [
+            "(str) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 93,
+        "func_name": "_cnfmerge",
+        "type_comments": [
+            "(Tuple[Dict, Dict[str, Union[function, str]]]) -> Dict[str, Union[function, str]]",
+            "(Dict[str, tkinter.Variable]) -> Dict[str, tkinter.Variable]",
+            "(Dict[str, Union[function, str]]) -> Dict[str, Union[function, str]]",
+            "(Tuple[Dict, Dict[str, str]]) -> Dict[str, str]",
+            "(Tuple[Dict, Dict[str, tkinter.Variable]]) -> Dict[str, tkinter.Variable]"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 296,
+        "func_name": "Variable.__init__",
+        "type_comments": [
+            "(None, None, None) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 325,
+        "func_name": "Variable.__del__",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 336,
+        "func_name": "Variable.__str__",
+        "type_comments": [
+            "() -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 339,
+        "func_name": "Variable.set",
+        "type_comments": [
+            "(str) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 343,
+        "func_name": "Variable.get",
+        "type_comments": [
+            "() -> Tuple[str, str, str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 581,
+        "func_name": "Misc.destroy",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1278,
+        "func_name": "Misc.mainloop",
+        "type_comments": [
+            "(int) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1284,
+        "func_name": "Misc._getints",
+        "type_comments": [
+            "(str) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1312,
+        "func_name": "Misc._options",
+        "type_comments": [
+            "(Dict, Dict[str, str]) -> Tuple[str, str]",
+            "(Dict[str, tkinter.Variable], None) -> Tuple[str, tkinter.Variable]",
+            "(Dict[str, Union[function, str]], None) -> Tuple[str, str, str, str]"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1354,
+        "func_name": "Misc._register",
+        "type_comments": [
+            "(function, None, int) -> str",
+            "(method, None, int) -> str"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1376,
+        "func_name": "Misc._root",
+        "type_comments": [
+            "() -> tkinter.Tk"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1495,
+        "func_name": "Misc.__str__",
+        "type_comments": [
+            "() -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1692,
+        "func_name": "CallWrapper.__init__",
+        "type_comments": [
+            "(function, None, tkinter.Button) -> None",
+            "(method, None, tkinter.Tk) -> None"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1697,
+        "func_name": "CallWrapper.__call__",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1856,
+        "func_name": "Wm.wm_iconbitmap",
+        "type_comments": [
+            "(str, None) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1933,
+        "func_name": "Wm.wm_minsize",
+        "type_comments": [
+            "(int, int) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1953,
+        "func_name": "Wm.wm_protocol",
+        "type_comments": [
+            "(str, method) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 1980,
+        "func_name": "Wm.wm_title",
+        "type_comments": [
+            "(str) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2000,
+        "func_name": "Tk.__init__",
+        "type_comments": [
+            "(None, None, str, int, int, None) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2030,
+        "func_name": "Tk._loadtk",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2055,
+        "func_name": "Tk.destroy",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2064,
+        "func_name": "Tk.readprofile",
+        "type_comments": [
+            "(str, str) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2122,
+        "func_name": "Pack.pack_configure",
+        "type_comments": [
+            "(Dict) -> None"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2250,
+        "func_name": "BaseWidget._setup",
+        "type_comments": [
+            "(tkinter.Tk, Dict) -> None",
+            "(tkinter.Tk, Dict[str, Union[function, str]]) -> None",
+            "(tkinter.Tk, Dict[str, tkinter.Variable]) -> None"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2283,
+        "func_name": "BaseWidget.__init__",
+        "type_comments": [
+            "(tkinter.Tk, str, Dict, Dict, Tuple[]) -> None",
+            "(tkinter.Tk, str, Dict, Dict[str, Union[function, str]], Tuple[]) -> None",
+            "(tkinter.Tk, str, Dict, Dict[str, tkinter.Variable], Tuple[]) -> None"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2299,
+        "func_name": "BaseWidget.destroy",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2347,
+        "func_name": "Button.__init__",
+        "type_comments": [
+            "(tkinter.Tk, Dict) -> None"
+        ],
+        "samples": 2
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2727,
+        "func_name": "Frame.__init__",
+        "type_comments": [
+            "(tkinter.Tk, Dict) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2767,
+        "func_name": "Listbox.__init__",
+        "type_comments": [
+            "(tkinter.Tk, Dict) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2786,
+        "func_name": "Listbox.delete",
+        "type_comments": [
+            "(int, str) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\__init__.py",
+        "line": 2801,
+        "func_name": "Listbox.insert",
+        "type_comments": [
+            "(str, *str) -> None"
+        ],
+        "samples": 4
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\commondialog.py",
+        "line": 17,
+        "func_name": "Dialog.__init__",
+        "type_comments": [
+            "(None) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\commondialog.py",
+        "line": 29,
+        "func_name": "Dialog.show",
+        "type_comments": [
+            "() -> Tuple[str, str, str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\filedialog.py",
+        "line": 299,
+        "func_name": "_Dialog._fixoptions",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\filedialog.py",
+        "line": 330,
+        "func_name": "Open._fixresult",
+        "type_comments": [
+            "(tkinter.Frame, Tuple[str, str, str, str]) -> Tuple[str, str, str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "C:\\Users\\kevin\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\tkinter\\filedialog.py",
+        "line": 382,
+        "func_name": "askopenfilenames",
+        "type_comments": [
+            "() -> Tuple[str, str, str, str]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "main.py",
+        "line": 6,
+        "func_name": "add_files",
+        "type_comments": [
+            "(tkinter.Tk, tkinter.Listbox) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "main.py",
+        "line": 17,
+        "func_name": "open_files",
+        "type_comments": [
+            "(tkinter.Variable) -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "main.py",
+        "line": 29,
+        "func_name": "main",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    }
+]
