@@ -1,8 +1,16 @@
 import os
+import sys
 import tkinter
 from tkinter import filedialog, Listbox, messagebox
 from tkinter import Tk
 from tkinter import Variable
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 
 def add_files(root, box):
@@ -34,7 +42,7 @@ def main():
     # type: () -> None
     root = tkinter.Tk()
     root.title('Multi-Open')
-    root.iconbitmap('icon.ico')
+    root.iconbitmap(resource_path('icon.ico'))
     root.minsize(300, 200)
     files = tkinter.Variable()
     listbox = Listbox(root, listvariable=files)
