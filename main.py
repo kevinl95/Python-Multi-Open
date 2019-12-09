@@ -1,6 +1,6 @@
 import os
 import tkinter
-from tkinter import filedialog, Listbox
+from tkinter import filedialog, Listbox, messagebox
 
 
 def add_files(root, box):
@@ -19,20 +19,25 @@ def open_files(files):
     file_list = files.get()
     # Loop through and open these files in their default Windows program
     for f in file_list:
-        os.startfile(f)
+        try:
+            os.startfile(f)
+        except OSError:
+            messagebox.showerror("Error", "Unable to open " + f +
+                                 "! Do you have a default program set to open this type of file?")
 
 
 def main():
     root = tkinter.Tk()
+    root.minsize(300, 200)
     files = tkinter.Variable()
     listbox = Listbox(root, listvariable=files)
-    listbox.pack()
+    listbox.pack(fill='x')
     file_button = tkinter.Button(
         root, text="Select Files", command=lambda: add_files(root, listbox))
-    file_button.pack()
+    file_button.pack(fill='x')
     run_button = tkinter.Button(
         root, text="Open All Files", command=lambda: open_files(files))
-    run_button.pack()
+    run_button.pack(fill='x')
     root.mainloop()
 
 
