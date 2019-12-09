@@ -28,6 +28,8 @@ def open_files(files):
 
 def main():
     root = tkinter.Tk()
+    root.title('Multi-Open')
+    root.iconbitmap('icon.ico')
     root.minsize(300, 200)
     files = tkinter.Variable()
     listbox = Listbox(root, listvariable=files)
