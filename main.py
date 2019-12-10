@@ -8,7 +8,8 @@ from tkinter import Variable
 def resource_path(relative_path):
     # type: (str) -> str
     try:
-        base_path = sys._MEIPASS
+        # Temporary folder for PyInstaller
+        base_path = sys._MEIPASS  # type: ignore
     except Exception:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
