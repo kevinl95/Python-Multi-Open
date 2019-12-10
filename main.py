@@ -6,6 +6,7 @@ from tkinter import Tk
 from tkinter import Variable
 
 def resource_path(relative_path):
+    # type: (str) -> str
     try:
         base_path = sys._MEIPASS
     except Exception:
